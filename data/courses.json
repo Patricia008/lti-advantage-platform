@@ -11,20 +11,20 @@
                 "id": "course1001_res1001",
                 "description": "Link to heroku tool developed using LTI library",
                 "title": "Introduction to GIT",
-                "tool_id": "tool1001"
+                "tool_id": "PatriciaTestTool"
             },
             {
                 "id": "course1001_res1002",
                 "description": "Link to IMS Tool 470",
                 "title": "GIT branches",
-                "tool_id": "tool1002"
+                "tool_id": "PatriciaTestTool"
             }
         ]
     },
     {
         "id": "course1002",
-        "label": "Node101",
-        "title": "Javascript in server side",
+        "label": "PatriciaNewCourse",
+        "title": "Patricia New Course",
         "type": [
             "http://purl.imsglobal.org/vocab/lis/v2/course#CourseOffering"
         ],
@@ -33,7 +33,23 @@
                 "id": "course1002_res2001",
                 "description": "Link to IMS Tool 471",
                 "title": "File System in NodeJs",
-                "tool_id": "tool1003"
+                "tool_id": "PatriciaTestToolWithLocalPlatform"
+            }
+        ]
+    },
+	{
+        "id": "course1003",
+        "label": "PatriciaNewCourse",
+        "title": "Local tool",
+        "type": [
+            "http://purl.imsglobal.org/vocab/lis/v2/course#CourseOffering"
+        ],
+        "resource_links":[
+            {
+                "id": "course1002_res2001",
+                "description": "Link to IMS Tool 471",
+                "title": "Local tool",
+                "tool_id": "LocalNodeTool"
             }
         ]
     }

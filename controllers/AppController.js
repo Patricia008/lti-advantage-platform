@@ -11,7 +11,8 @@ exports.launchDefault = (req, res)=>{
     })
 }
 
-exports.initLogin = (req, res)=>{
+exports.initLogin = (req, res)=> {
+	console.log('>>>> in initLogin method')
     const {toolId,resLinkId} = req.query;
     if(!toolId){
         return res.status(400).send(`Bad Request, Tool Id is Required`)
@@ -20,11 +21,14 @@ exports.initLogin = (req, res)=>{
         return res.status(400).send(`Bad Request, Resource Link Id is Required`)
     }
 
+	console.log('>>>> toolId and resLinkId present')
     let loginData = constructLoginParams(toolId,resLinkId);
+	console.log('>>>> after constructLoginParams')
     if(!loginData){
         return res.status(400).send(`Bad Request, No tool exists with id = ${toolId}`)
     }
     
+	console.log('>>>> before return')
     return res.render('init-login.ejs',{
         title: config.appName,
         formFields: loginData.loginParams,

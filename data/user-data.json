@@ -1,10 +1,10 @@
 {
-    "id": "user1001",
-    "name": "Ms Jane Marie Doe",
-    "given_name": "Jane",
-    "family_name": "Doe",
-    "middle_name": "Marie",
-    "email":"jane@platform.example.edu",
+    "id": "1",
+    "name": "Patricia's Test User",
+    "given_name": "Patricia",
+    "family_name": "XY",
+    "middle_name": "Y",
+    "email":"patriciaXY@mailinator.com",
     "roles":[
         "http://purl.imsglobal.org/vocab/lis/v2/membership#Learner"
     ]

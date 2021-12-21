@@ -1,35 +1,35 @@
 [
     {
-        "id":"tool1001",
-        "client_id":"Tool101",
-        "deployment_id":"1",
+        "id":"PatriciaTestToolWithLocalPlatform",
+        "client_id":"54321",
+        "deployment_id":"2",
         "lti_version":"1.3",
-        "tool_url":"https://lti-node.herokuapp.com",
-        "initiate_login_uri":"https://lti-node.herokuapp.com/oidc",
+        "tool_url":"https://lti-ri.imsglobal.org/lti/tools/2523/launches",
+        "initiate_login_uri":"https://lti-ri.imsglobal.org/lti/tools/2523/login_initiations",
         "redirect_uris":[
-            "https://lti-node.herokuapp.com/project/submit"
+            "https://lti-ri.imsglobal.org/lti/tools/2523/launches"
         ]
     },
     {
-        "id":"tool1002",
-        "client_id":"iHWWba8g6k36JA",
+        "id":"PatriciaTestTool",
+        "client_id":"12345",
         "deployment_id":"1",
         "lti_version":"1.3",
-        "tool_url":"https://lti-ri.imsglobal.org/lti/tools/470/launches",
-        "initiate_login_uri":"https://lti-ri.imsglobal.org/lti/tools/470/login_initiations",
+        "tool_url":"https://lti-ri.imsglobal.org/lti/tools/2515/launches",
+        "initiate_login_uri":"https://lti-ri.imsglobal.org/lti/tools/2515/login_initiations",
         "redirect_uris":[
-            "https://lti-ri.imsglobal.org/lti/tools/470/launches"
+            "https://lti-ri.imsglobal.org/lti/tools/2515/launches"
         ]
     },
     {
-        "id":"tool1003",
+        "id":"LocalNodeTool",
         "client_id":"987654321",
         "deployment_id":"1",
         "lti_version":"1.3",
-        "tool_url":"https://lti-ri.imsglobal.org/lti/tools/471/launches",
-        "initiate_login_uri":"https://lti-ri.imsglobal.org/lti/tools/471/login_initiations",
+        "tool_url":"http://localhost:5000/launch",
+        "initiate_login_uri":"http://localhost:5000/initiate_login",
         "redirect_uris":[
-            "https://lti-ri.imsglobal.org/lti/tools/471/launches"
+            "http://localhost:5000/launch"
         ]
     }
 ]
